@@ -177,4 +177,27 @@ student1.marks.push(4);
 console.log(student1);
 console.log(student5);
 
+console.clear();
 // json
+
+const student6 = JSON.parse(JSON.stringify(student1));
+
+student1.marks.push(6);
+student1.parents.father.name = 'Jonas';
+
+console.log(student1);
+console.log(student6);
+
+console.clear();
+
+function deepCopy(data) {
+    return JSON.parse(JSON.stringify(data));
+}
+
+const student7 = deepCopy(student1);
+
+student1.marks.push(7);
+student1.parents.mother.name = 'Onute';
+
+console.log(student1);
+console.log(student7);
