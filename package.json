@@ -9,6 +9,7 @@
         "uzd-3": "nodemon ./uzd/3-number.js",
         "uzd-2": "nodemon ./uzd/2-multiply.js",
         "uzd-1": "nodemon ./uzd/1-empty.js",
+        "interval": "nodemon ./js/23-interval.js",
         "random": "nodemon ./js/22-random.js",
         "recursion": "nodemon ./js/21-recursion.js",
         "json": "nodemon ./js/20-json.js",
